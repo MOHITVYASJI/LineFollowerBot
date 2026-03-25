@@ -1,0 +1,16 @@
+Components used in this project:
+1. Microcontroller: ESP32 DevKit V1
+2. Motor Driver: TB6612FNG (for motor control)
+3. Motors: N20 metal gear motors (1500 RPM)
+4. Buck Converter: LM2596 5V buck converter (to step down 11.1V to 5V for the ESP32)
+5. Battery: 11.1V LiPo battery (1500 mAh)
+6. Display: 0.96” OLED display
+7. Input: Push buttons
+8. PCB
+9. 9-array line follower sensor using TCRT5000L IR sensors.
+10. 220 ohm resistors (for the IR sensors)
+11. Jumper wires and connectors
+12. 10k ohm potentiometer (for sensor calibration)
+
+These components are required excluding the sensor module.
+To build and calibrate the sensor, please check this video: https://www.youtube.com/watch?v=IZvZkyqCajg
